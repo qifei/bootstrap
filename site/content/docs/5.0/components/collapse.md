@@ -42,7 +42,7 @@ Generally, we recommend using a button with the `data-bs-target` attribute. Whil
 
 ## Horizontal
 
-The collapse plugin also supports horizontal collapsing. Add the `.width` modifier class to transition the `width` instead of `height` and set a `width` on the immediate child element.
+The collapse plugin also supports horizontal collapsing. Add the `.collapse-horizontal` modifier class to transition the `width` instead of `height` and set a `width` on the immediate child element.
 
 {{< callout info >}}
 Please note that while the example below has a `min-height` set to avoid excessive repaints in our docs, this is not explicitly required. **Only the `width` on the child element is required.**
@@ -55,7 +55,7 @@ Please note that while the example below has a `min-height` set to avoid excessi
   </button>
 </p>
 <div style="min-height: 120px;">
-  <div class="collapse width" id="collapseWidthExample">
+  <div class="collapse collapse-horizontal" id="collapseWidthExample">
     <div class="card card-body" style="width: 300px;">
       This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
     </div>
